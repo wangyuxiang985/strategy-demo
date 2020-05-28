@@ -7,5 +7,5 @@ import java.lang.annotation.*;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface StrategyTypeHandler {
-    TpyeEnum value();
+    TypeEnum value();
 }

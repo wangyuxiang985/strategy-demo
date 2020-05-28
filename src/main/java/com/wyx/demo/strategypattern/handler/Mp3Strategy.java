@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @Description 如果类型为mp3时需执行的方法
  **/
 @Component
-@StrategyTypeHandler(TpyeEnum.MP3)
+@StrategyTypeHandler(TypeEnum.MP3)
 public class Mp3Strategy implements Strategy {
     @Override
     public String custom(String param) {

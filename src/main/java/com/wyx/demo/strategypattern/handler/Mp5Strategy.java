@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @Description 如果类型为mp5时需执行的方法
  **/
 @Component
-@StrategyTypeHandler(TpyeEnum.MP5)
+@StrategyTypeHandler(TypeEnum.MP5)
 public class Mp5Strategy implements Strategy {
     @Override
     public String custom(String param) {

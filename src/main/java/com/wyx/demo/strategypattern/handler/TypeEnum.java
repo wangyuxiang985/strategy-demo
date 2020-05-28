@@ -3,7 +3,7 @@ package com.wyx.demo.strategypattern.handler;
 /**
  * @Description //涉及的code类型枚举类
 **/
-public enum TpyeEnum {
+public enum TypeEnum {
 
     MP3(0,"我是mp3"),
     MP4(1,"我是mp4"),
@@ -13,7 +13,7 @@ public enum TpyeEnum {
     private int code;
     private String msg;
 
-    TpyeEnum(int code, String msg) {
+    TypeEnum(int code, String msg) {
         this.code = code;
         this.msg = msg;
     }

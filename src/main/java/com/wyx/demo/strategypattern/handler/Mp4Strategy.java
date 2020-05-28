@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @Description 如果类型为mp4时需执行的方法
  **/
 @Component
-@StrategyTypeHandler(TpyeEnum.MP4)
+@StrategyTypeHandler(TypeEnum.MP4)
 public class Mp4Strategy implements Strategy {
     @Override
     public String custom(String param) {
